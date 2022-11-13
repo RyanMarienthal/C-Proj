@@ -1,0 +1,8 @@
+Easy
+#1 -- Given an input array, for each value in the input array, double the value, and put store it into a resulting array. With no modifications to the origial array. 
+  Return the resulting array.
+Medium
+#2 -- Given an input array, for each value in the input array, return an array which contains all values in the input array that are larger than the average of the values in the input array.
+Hard
+#3 -- Given an array of arrays ( and all neccessary setup information for those said arrays), return a different "flattened" version of the input array of arrays
+  Example input:{{3,2,3,4},{9,8,4,38,0},{3,4},{5}} -> output:{3,2,3,4,9,8,4,38,0,3,4,5}
