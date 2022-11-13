@@ -1,5 +1,5 @@
 Easy
-#1 -- Given an input array, for each value in the input array, double the value, and put store it into a resulting array. With no modifications to the origial array. 
+#1 -- Given an input array, for each value in the input array, double the value, and store it into a resulting array. With no modifications to the origial array. 
   Return the resulting array.
 Medium
 #2 -- Given an input array, for each value in the input array, return an array which contains all values in the input array that are larger than the average of the values in the input array.
