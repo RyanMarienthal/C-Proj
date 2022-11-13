@@ -11,8 +11,7 @@ float* ARRAY_SUM(float* ARRAY, int SIZE)
 	{
 		SUM += ARRAY[i];
 	}
-	*ARRAY = SUM;
-	return ARRAY;
+	return &SUM;
 }
 
 int main()
