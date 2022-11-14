@@ -1,0 +1,9 @@
+float* SCALE(float* ARRAY_IN, int ARRAY_IN_SIZE, int SCALAR)
+{
+	float* S_ARRAY = ARRAY_IN;
+	for (int i = 0; i < ARRAY_IN_SIZE; i++)
+	{
+		S_ARRAY[i] = S_ARRAY[i] * SCALAR;
+	}
+	return S_ARRAY;
+}
