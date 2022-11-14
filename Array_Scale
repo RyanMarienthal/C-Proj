@@ -7,4 +7,4 @@ float* SCALE(float* ARRAY_IN, int ARRAY_IN_SIZE, int SCALAR)
 		S_ARRAY[i] = ARRAY_IN[i] * SCALAR;
 	}
 	return S_ARRAY;
-}
+} 
