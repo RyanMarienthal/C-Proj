@@ -1,0 +1,33 @@
+//This program stores 3 key inputs at a time in a linked list then outputs them
+#include <iostream>
+#include <conio.h>
+
+struct node {
+	int key;
+	struct node* next;
+};
+void printList(struct node* n)
+{
+	while (n != NULL) {
+		printf(" %d ", n->key);
+		n = n->next;
+	}
+}
+int main()
+{
+
+	struct node* head = (struct node*)malloc(sizeof(struct node*));
+	struct node* second = (struct node*)malloc(sizeof(struct node*));
+	struct node* third = (struct node*)malloc(sizeof(struct node*));
+	while (1)
+	{
+		head->key = _getch();
+		head->next = second;
+		second->key = _getch();
+		second->next = third;
+		third->key = _getch();
+		third->next = NULL;
+		printList(head);
+	}
+	
+}
